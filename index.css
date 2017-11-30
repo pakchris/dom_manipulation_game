@@ -11,7 +11,11 @@
 	position:absolute;
 	display:inline-block;
 }
-.playerbox h2{font-weight:400;font-size:3rem;text-align:center;}
+.playerbox h2{font-weight:400;font-size:3rem;text-align:center;margin-top:200px;}
 .playerbox.active h2{font-weight:700;}
 #player1{top:0;left:0;}
 #player2{top:0;right:0;}
+
+
+
+.currentscore{}
