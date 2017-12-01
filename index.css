@@ -18,12 +18,22 @@ body{
 
 }
 
+#newgame{
+	position:absolute;
+	left:50%;transform:translateX(-50%);
+}
+#newgame p{font-size:2rem;font-weight:300;}
+
+#rolldice{}
+
+#hold{}
+
 .playerbox{
 	width:50%;
 	position:absolute;
 	display:inline-block;
 }
-.playerbox h2{font-weight:400;font-size:3rem;text-align:center;margin-top:200px;}
+.playerbox h2{font-weight:400;font-size:3rem;text-align:center;margin-top:100px;}
 .playerbox.active h2{font-weight:700;}
 #player1{top:0;left:0;}
 #player2{top:0;right:0;}
