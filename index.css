@@ -12,24 +12,24 @@ body{
 	position:absolute;top:50%;left:50%;
 	transform:translate(-50%,-50%);
 	font-family:'Open Sans',sans-serif;
-	width:960px;height:700px;
+	width:1200px;height:750px;
 	background:white;
 	display:block;
 
 }
 
-#newgame{
+#newgame, #rolldice, #hold{
 	position:absolute;
 	left:50%;transform:translateX(-50%);
 }
-#newgame p{font-size:2rem;font-weight:300;}
+#newgame p, #rolldice p, #hold p{font-size:2rem;font-weight:300;}
 
-#rolldice{}
+#rolldice{top:150px;}
 
-#hold{}
+#hold{bottom:100px;}
 
 .playerbox{
-	width:50%;
+	width:50%;height:100%;
 	position:absolute;
 	display:inline-block;
 }
@@ -40,4 +40,9 @@ body{
 
 
 
-.currentscore{}
+.currentscore{
+	position:absolute;bottom:100px;left:50%;
+	transform:translateX(-50%);
+	width:125px;height:100px;
+	background:rgb(220,75,75);
+}
