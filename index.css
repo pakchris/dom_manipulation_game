@@ -24,9 +24,11 @@ body{
 }
 #newgame p, #rolldice p, #hold p{font-size:2rem;font-weight:300;}
 
-#rolldice{top:150px;}
+#newgame{top:30px;}
 
-#hold{bottom:100px;}
+#rolldice{bottom:100px;}
+
+#hold{bottom:30px;}
 
 .playerbox{
 	width:50%;height:100%;
@@ -43,6 +45,6 @@ body{
 .currentscore{
 	position:absolute;bottom:100px;left:50%;
 	transform:translateX(-50%);
-	width:125px;height:100px;
+	width:150px;height:100px;
 	background:rgb(220,75,75);
 }
