@@ -40,7 +40,14 @@ body{
 #player1{top:0;left:0;}
 #player2{top:0;right:0;}
 
-
+.playerscore{
+	width:100px;
+	margin:0 auto;
+	text-align:center;
+	font-size:5rem;
+	font-weight:300;
+	color:rgb(220, 75, 75);
+}
 
 .currentscore{
 	position:absolute;bottom:100px;left:50%;
