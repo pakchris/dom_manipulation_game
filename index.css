@@ -41,8 +41,9 @@ body{
 #player2{top:0;right:0;}
 
 .playerscore{
-	width:100px;
+	width:175px;
 	margin:0 auto;
+	padding-top:25px;
 	text-align:center;
 	font-size:5rem;
 	font-weight:300;
@@ -55,3 +56,4 @@ body{
 	width:150px;height:100px;
 	background:rgb(220,75,75);
 }
+.currentscore p{text-align:center;color:white;font-size:3.5rem;}
