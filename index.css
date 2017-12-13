@@ -1,7 +1,4 @@
-*{
-	margin:0;padding:0;
-	box-sizing:border-box;
-}
+*{margin:0;padding:0;box-sizing:border-box;}
 
 body{
 	width:100%;height:100vh;position:relative;
@@ -25,10 +22,11 @@ h3{font-weight:200;font-size:3rem;}
 	text-align:center;
 	width:50%;height:100%;
 }
+
 #player1{top:0;left:0;}
 #player2{top:0;right:0;}
 
-.playerscore{font-size:2.5rem;font-weight:200;}
+.playerscore{font-size:2.5rem;font-weight:200;color:rgb(225,90,95)}
 .playercurrent{font-size:1.7rem;font-weight:200;color:white;}
 
 .currentScore{
@@ -36,3 +34,20 @@ h3{font-weight:200;font-size:3rem;}
 	padding:10px 15px;
 	display:inline-block;
 }
+
+h2{
+	z-index:5;
+	position:absolute;
+	font-size:2rem;
+	font-weight:300;
+	left:50%;
+	transform:translateX(-50%);
+}
+#newGame{top:100px;}
+#rollDice{bottom:175px;}
+#hold{bottom:100px;}
+
+
+.active{background:rgb(240,240,240);}
+.active h3{font-weight:200;}
+.active h3:before{content:"\2022";color:rgb(225,90,95);padding-right:5px;}
