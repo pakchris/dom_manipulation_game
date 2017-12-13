@@ -1,39 +1,33 @@
 <!DOCTYPE html>
 <html>
 <head>
-	<title></title>
-	<link href="https://fonts.googleapis.com/css?family=Open+Sans:300,400" rel="stylesheet">
+	<title>Pig Game</title>
+	<link href="https://fonts.googleapis.com/css?family=Barlow:100,200,300" rel="stylesheet">
 	<link rel="stylesheet" href="index.css">
 </head>
 <body>
-	<div id="main">
+	<div id="gameBoard">
 
-		<div id="newgame">
-			<p>New Game</p>
+		<div id="player1" class="player">
+			<h3>Player 1</h3>
+			<p id="player1score" class="playerscore">0</p>
+			<div class="currentScore">
+				<p>current</p>
+				<p id="player1current" class="playercurrent">0</p>
+			</div>
 		</div>
 
-		<div id="dice"></div>
-
-		<div id="rolldice">
-			<p>Roll Dice</p>
+		<div id="player2" class="player">
+			<h3>Player 2</h3>
+			<p id="player2score" class="playerscore">0</p>
+			<div class="currentScore">
+				<p>current</p>
+				<p id="player2current" class="playercurrent">0</p>
+			</div>
 		</div>
 
-		<div id="hold">
-			<p>Hold</p>
-		</div>
 
-		<div id="player1" class="playerbox">
-			<h2>Player 1</h2>
-			<div id="player1score" class="playerscore"></div>
-			<div id="player1current" class="currentscore"><p></p></div>
-		</div>
 
-		<div id="player2" class="playerbox">
-			<h2>Player 2</h2>
-			<div id="player2score" class="playerscore"></div>
-			<div id="player2current" class="currentscore"><p></p></div>
-		</div>
-		
 	</div>
 </body>
 <script src="index.js"></script>

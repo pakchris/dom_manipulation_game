@@ -1,66 +1,38 @@
-*{margin:0;padding:0;box-sizing:border-box;}
+*{
+	margin:0;padding:0;
+	box-sizing:border-box;
+}
 
 body{
-	width:100%;height:100vh;
-	background:url(assets/bg.jpg);
+	width:100%;height:100vh;position:relative;
+	background-image:url(assets/bg.jpg);
 	background-size:cover;
-	background-repeat:no-repeat;
-	position:relative;
+	font-family:'Barlow', sans-serif;
 }
 
-#main{
-	position:absolute;top:50%;left:50%;
-	transform:translate(-50%,-50%);
-	font-family:'Open Sans',sans-serif;
-	width:1200px;height:750px;
+#gameBoard{
+	width:1200px;height:800px;
 	background:white;
-	display:block;
-
-}
-
-#newgame, #rolldice, #hold{
 	position:absolute;
-	left:50%;transform:translateX(-50%);
+	left:50%;top:50%;
+	transform:translate(-50%,-50%);
 }
-#newgame p, #rolldice p, #hold p{font-size:2rem;font-weight:300;}
 
-#newgame{top:30px;}
+h3{font-weight:200;font-size:3rem;}
 
-#dice{
-	border:1px solid black;
-	width:125px;height:125px;
+.player{
 	position:absolute;
-	top:200px;left:50%;transform:translateX(-50%);
-}
-
-#rolldice{bottom:100px;}
-
-#hold{bottom:30px;}
-
-.playerbox{
+	text-align:center;
 	width:50%;height:100%;
-	position:absolute;
-	display:inline-block;
 }
-.playerbox h2{font-weight:400;font-size:3rem;text-align:center;margin-top:100px;}
-.playerbox.active h2{font-weight:700;}
 #player1{top:0;left:0;}
 #player2{top:0;right:0;}
 
-.playerscore{
-	width:175px;
-	margin:0 auto;
-	padding-top:25px;
-	text-align:center;
-	font-size:5rem;
-	font-weight:300;
-	color:rgb(220, 75, 75);
-}
+.playerscore{font-size:2.5rem;font-weight:200;}
+.playercurrent{font-size:1.7rem;font-weight:200;color:white;}
 
-.currentscore{
-	position:absolute;bottom:100px;left:50%;
-	transform:translateX(-50%);
-	width:150px;height:100px;
-	background:rgb(220,75,75);
+.currentScore{
+	background-color:rgb(225,90,95);
+	padding:10px 15px;
+	display:inline-block;
 }
-.currentscore p{text-align:center;color:white;font-size:3.5rem;}
